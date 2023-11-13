@@ -9,11 +9,16 @@
     "@types/node": "^16.18.59",
     "@types/react": "^18.2.35",
     "@types/react-dom": "^18.2.14",
+<<<<<<< HEAD
     "http-proxy-middleware": "^2.0.6",
+=======
+    "@types/styled-components": "^5.1.30",
+>>>>>>> 8c442ceaae2a4598f220e824a5b963c41325fad8
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.1.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
