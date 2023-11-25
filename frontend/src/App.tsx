@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-
+import Home from "./pages/Home";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Header from "./components/Header";
 
 import MainPage from './pages/MainPage';
@@ -21,3 +21,4 @@ const App: React.FC = () => {
 }
 
 export default App;
+//
