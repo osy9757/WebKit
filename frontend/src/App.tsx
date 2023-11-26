@@ -1,7 +1,10 @@
 import React from 'react';
-import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
-import Header from "./components/Headers/Header";
+
+import Header1 from "./components/Headers/Header1";
+import Header2 from "./components/Headers/Header2";
+import Header3 from "./components/Headers/Header3";
+import Header4 from "./components/Headers/Header4";
 
 import MainPage from './pages/MainPage';
 
@@ -9,16 +12,20 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header />
-          <Routes>
-            <Route path="/" element={<Navigate replace to="/main" />} />
-            <Route path="/main" element={<MainPage />} />
-            {/* 추가적인 라우트들을 여기에 작성할 수 있습니다. */}
-          </Routes>
+        <Routes>
+          {/* 기본 경로를 '/main'으로 리디렉트 */}
+          <Route path="/" element={<Navigate replace to="/main" />} />
+          <Route path="/main" element={<MainPage />} />
+
+          {/* 각 헤더로 이동하는 라우트 */}
+          <Route path="/header/1" element={<Header1 />} />
+          <Route path="/header/2" element={<Header2 />} />
+          <Route path="/header/3" element={<Header3 />} />
+          <Route path="/header/4" element={<Header4 />} />
+        </Routes>
       </div>
     </BrowserRouter>
   );
 }
 
 export default App;
-//
