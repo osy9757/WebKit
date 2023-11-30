@@ -7,6 +7,7 @@ import Header3 from "./components/Headers/Header3";
 import Header4 from "./components/Headers/Header4";
 
 import MainPage from './pages/MainPage';
+import Table from './pages/Table1';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const App: React.FC = () => {
           <Route path="/header/2" element={<Header2 />} />
           <Route path="/header/3" element={<Header3 />} />
           <Route path="/header/4" element={<Header4 />} />
+          <Route path="/table/1" element={<Table />} />
         </Routes>
       </div>
     </BrowserRouter>
