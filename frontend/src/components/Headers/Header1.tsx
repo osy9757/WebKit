@@ -29,7 +29,7 @@ const Header: React.FC = () => {
   return (
     <HeaderContainer>
       <StyledLink to="/">
-        <Logo>SeSAC</Logo>
+        <Logo>SeSAC!</Logo>
       </StyledLink>
       {/* 메뉴자리 */}
     </HeaderContainer>
