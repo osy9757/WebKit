@@ -108,13 +108,13 @@
       "type": "image/png"
     },
     {
-      "src": "../src/assets/images/screenshot-wide.png",
+      "src": "/icons/screenshot-wide.png",
       "sizes": "1280x720",
       "type": "image/png",
       "platform": "wide"
     },
     {
-      "src": "../src/assets/images/screenshot-mobile.png",
+      "src": "/icons/screenshot-mobile.png",
       "sizes": "640x1136",
       "type": "image/png",
       "platform": "mobile"
