@@ -106,6 +106,18 @@
       "src": "/icons/ms-icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
+    },
+    {
+      "src": "../src/assets/images/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide"
+    },
+    {
+      "src": "../src/assets/images/screenshot-mobile.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "platform": "mobile"
     }
   ],
   "start_url": "/",
